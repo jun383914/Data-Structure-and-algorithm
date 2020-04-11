@@ -3,4 +3,6 @@
 
 ## Day 1 Reverse Array
 ## Day 2: Array Shift
-## Day3: Day 3: Binary Search
+## Day3: Binary Search
+## Day4: Linked List
+## Day5: Linked List Insertion
