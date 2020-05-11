@@ -5,4 +5,5 @@
 ## [Day 2 Array Shift](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/ShiftArray/ShiftArray/ShiftArray/Readme.md)
 ## [Day 3 Binary Search](https://github.com/jun383914/Data-Structure-and-algorithm/tree/master/BinarySearch/BinarySearch/BinarySearch)
 ## [Day 4 LinkedList](https://github.com/jun383914/Data-Structure-and-algorithm/tree/master/LinkedList/LinkedList/LinkedList)
+## [Day 4 LinkedList Insertion](https://github.com/jun383914/Data-Structure-and-algorithm/tree/master/LinkedList/LinkedList/LinkedList)
 
