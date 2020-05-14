@@ -1,12 +1,11 @@
 #  Data-structures-Algorithm
  Learning Data Structures and Algorithm, Links below are codes for the specific method
- 
- 
+ ---
 
-## [Day 1 Reverse Array](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/ReverseArray/ReverseArray/Program.cs)
-## [Day 2 Array Shift](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/ShiftArray/ShiftArray/ShiftArray/Program.cs)
-## [Day 3 Binary Search](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/BinarySearch/BinarySearch/BinarySearch/Program.cs)
-## [Day 4 LinkedList](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/LinkedList/LinkedList/LinkedList/Program.cs)
+### [Day 1 Reverse Array](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/ReverseArray/ReverseArray/Program.cs)
+ [Day 2 Array Shift](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/ShiftArray/ShiftArray/ShiftArray/Program.cs)
+ [Day 3 Binary Search](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/BinarySearch/BinarySearch/BinarySearch/Program.cs)
+# [Day 4 LinkedList](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/LinkedList/LinkedList/LinkedList/Program.cs)
 ## [Day 5 LinkedList Insertion](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/LinkedList%20Insertion/Linkedlist%20Insertion/Linkedlist%20Insertion/Program.cs)
 ## [Day 6 Linked List KthFromEnd](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/LinkedList%20KthFromEnd/LinkedList%20KthFromEnd/LinkedList%20KthFromEnd/Program.cs)
 ## [Day 7 Linked List Merge](PlaceHolder)
