@@ -1,5 +1,6 @@
 #  Data-structures-Algorithm
-## Learning Data Structures and Algorithm, Links below are codes for the specific method
+---
+## Table of Content(each links direct you to the code)
  ---
 
 ### [Day 1 Reverse Array](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/ReverseArray/ReverseArray/Program.cs)
@@ -12,7 +13,7 @@
 ### [Day 8 Stacks and Queues](PlaceHolder)
 ### [Day 9 Queue with Stack](PlaceHolder)
 ### [Day 10 AnimalShelter](PlaceHolder)
-## [Day 11 MultiBracketValidation](PlaceHolder)
+### [Day 11 MultiBracketValidation](PlaceHolder)
 ### [Day 12 Tree](PlaceHolder)
 ### [Day 13 FizzBuzzTree](PlaceHolder)
 ### [Day 14 Breadth First Traversal](PlaceHolder)
