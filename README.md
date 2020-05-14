@@ -1,5 +1,7 @@
 #  Data-structures-Algorithm
- Learning Data Structures and Algorithm
+ Learning Data Structures and Algorithm, Links below are codes for the specific method
+ 
+ 
 
 ## [Day 1 Reverse Array](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/ReverseArray/ReverseArray/Readme.md)
 ## [Day 2 Array Shift](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/ShiftArray/ShiftArray/ShiftArray/Readme.md)
