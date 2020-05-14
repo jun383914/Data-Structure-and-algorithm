@@ -1,5 +1,4 @@
 #  Data-structures-Algorithm
----
 ## Table of Content(each links direct you to the code)
  ---
 
