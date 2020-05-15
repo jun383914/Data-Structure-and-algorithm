@@ -9,7 +9,7 @@
 ### [Day 5 LinkedList Insertion](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/LinkedList%20Insertion/Linkedlist%20Insertion/Linkedlist%20Insertion/Program.cs)
 ### [Day 6 Linked List KthFromEnd](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/LinkedList%20KthFromEnd/LinkedList%20KthFromEnd/LinkedList%20KthFromEnd/Program.cs)
 ### [Day 7 Linked List Merge](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/LinkedList%20Merge/Linked%20List%20Merge/Linked%20List%20Merge/Program.cs)
-### [Day 8 Stacks and Queues](PlaceHolder)
+### [Day 8 Stacks and Queues](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/Stacks%20and%20Queues/Stacks%20and%20Queues/Stacks%20and%20Queues/Program.cs)
 ### [Day 9 Queue with Stack](PlaceHolder)
 ### [Day 10 AnimalShelter](PlaceHolder)
 ### [Day 11 MultiBracketValidation](PlaceHolder)
