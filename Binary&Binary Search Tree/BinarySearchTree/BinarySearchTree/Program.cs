@@ -8,7 +8,7 @@ namespace BinarySearchTreeExample
     {
         static void Main(string[] args)
         {
-            BinaryTree binaryTree = new BinaryTree();
+            BinaryTree<int> binaryTree = new BinaryTree<int>();
             binaryTree.Insert(5);
             binaryTree.Insert(3);
             binaryTree.Insert(1);
@@ -83,7 +83,7 @@ namespace BinarySearchTreeExample
         //Write insert method to test the BinaryTree class later
         public void Insert(T newValue)
         {
-            Node newNode = new Node(newValue);
+            Node<T> newNode = new Node<T>(newValue);
 
             if (IsEmpty())
             {
@@ -91,10 +91,10 @@ namespace BinarySearchTreeExample
             }
             else
             {
-                Node finger = root;
+                Node<T> finger = root;
                 while (true)
                 {
-                    if (newValue <= finger._value)
+                    if (Convert.ToInt32(newValue) <= Convert.ToInt32(finger._value))
                     {
                         if (finger.leftnode != null)
                         {
@@ -131,7 +131,7 @@ namespace BinarySearchTreeExample
             }
             return preOrderHelper(root, arrayList).ToArray(typeof(int)) as int[];
         }
-        public ArrayList preOrderHelper(Node root, ArrayList arrayList)
+        public ArrayList preOrderHelper(Node<T> root, ArrayList arrayList)
         {
             if (root != null)
             {
@@ -150,7 +150,7 @@ namespace BinarySearchTreeExample
             }
             return inOrderHelper(root, arrayList);
         }
-        public int[] inOrderHelper(Node root, ArrayList arrayList)
+        public int[] inOrderHelper(Node<T> root, ArrayList arrayList)
         {
             if (root != null)
             {
@@ -170,7 +170,7 @@ namespace BinarySearchTreeExample
             }
             return postOrderHelper(root, arrayList);
         }
-        public int[] postOrderHelper(Node root,ArrayList arraylist)
+        public int[] postOrderHelper(Node<T> root,ArrayList arraylist)
         {
             if(root!=null)
             {
@@ -185,7 +185,7 @@ namespace BinarySearchTreeExample
         {
             Console.WriteLine("\nNumber of leaf nodes: {0}", CountNumLeavesHelper(root));
         }
-        public int CountNumLeavesHelper(Node root)
+        public int CountNumLeavesHelper(Node<T> root)
         {
             if(root==null)
             {
@@ -204,7 +204,7 @@ namespace BinarySearchTreeExample
         {
             Console.WriteLine("\nHeight: {0}", DisplayHeightHelper(root));
         }
-        public int DisplayHeightHelper(Node root)
+        public int DisplayHeightHelper(Node<T> root)
         {
             if(root==null)
             {
@@ -219,13 +219,13 @@ namespace BinarySearchTreeExample
             BreathFirstTraversalHelper(root, arrayList);
             return arrayList;
         }
-        public void BreathFirstTraversalHelper(Node root,ArrayList arrayList)
+        public void BreathFirstTraversalHelper(Node<T> root,ArrayList arrayList)
         {
-            Queue<Node> treeQueue = new Queue<Node>();
+            Queue<Node<T>> treeQueue = new Queue<Node<T>>();
             treeQueue.Enqueue(root);
             while(treeQueue.Count!=0)
             {
-                Node traversalNode = treeQueue.Dequeue();
+                Node<T> traversalNode = treeQueue.Dequeue();
                 arrayList.Add(traversalNode._value);
                 if(traversalNode.leftnode!=null)
                 {
@@ -240,23 +240,23 @@ namespace BinarySearchTreeExample
     }
 
 //=======================================================================================================================
-    public class BinarySearchTree: BinaryTree
+    public class BinarySearchTree<T>: BinaryTree<T>
     {
-        public void Add(int value)
+        public void Add(T value)
         {
             root = add(root, value);
         }
-        public Node add(Node node,int value)
+        public Node<T> add(Node<T> node,T value)
         {
             if(node==null)
             {
-                return new Node(value);
+                return new Node<T>(value);
             }
-            if(value<root._value)
+            if(Convert.ToInt32(value)<Convert.ToInt32(root._value))
             {
                 node.leftnode = add(node.leftnode, value);
             }
-            else if(value>node._value)
+            else if(Convert.ToInt32(value)>Convert.ToInt32(node._value))
             {
                 node.rightnode = add(node.rightnode, value);
             }
@@ -266,17 +266,17 @@ namespace BinarySearchTreeExample
         {
             return contains(root, value);
         }
-        public bool contains(Node node, int value)
+        public bool contains(Node<T> node, int value)
         {
             if(node==null)
             {
                 return false;
             }
-            if(node._value==value)
+            if((Convert.ToInt32(node._value))==value)
             {
                 return true;
             }
-            else if(value>node._value)
+            else if(value>Convert.ToInt32(node._value))
             {
                 contains(node.rightnode, value);
             }
