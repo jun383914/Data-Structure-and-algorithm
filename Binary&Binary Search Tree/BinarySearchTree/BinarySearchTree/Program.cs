@@ -50,12 +50,12 @@ namespace BinarySearchTreeExample
      Create a BinarySearchTree class
         Define a method named add that accepts a value, and adds a new node with that value in the correct location in the binary search tree.
         Define a method named contains that accepts a value, and returns a boolean indicating whether or not the value is in the tree at least once.*/
-    public class Node
+    public class Node<T>
     {
-        public int _value { get; set; }
-        public Node leftnode { get; set; }
-        public Node rightnode { get; set; }
-        public Node(int value)
+        public T _value { get; set; }
+        public Node<T> leftnode { get; set; }
+        public Node<T> rightnode { get; set; }
+        public Node(T value)
         {
             _value = value;
             leftnode = null;
@@ -66,10 +66,10 @@ namespace BinarySearchTreeExample
 
         }
     }
-    public class BinaryTree
+    public class BinaryTree<T>
     {
         //create basic structure of the BinaryTree class
-        public Node root;
+        public Node<T> root;
 
         public BinaryTree()
         {
@@ -81,7 +81,7 @@ namespace BinarySearchTreeExample
             return root == null;
         }
         //Write insert method to test the BinaryTree class later
-        public void Insert(int newValue)
+        public void Insert(T newValue)
         {
             Node newNode = new Node(newValue);
 
