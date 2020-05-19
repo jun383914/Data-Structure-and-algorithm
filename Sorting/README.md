@@ -1,5 +1,5 @@
-#  Sorting-Algorithm
-## Table of Content(each links direct link to the code)
+##  Sorting-Algorithm
+### Table of Content(each links direct link to the code)
  ---
 
 - [ ] [Insertion Sort](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/ReverseArray/ReverseArray/Program.cs)
