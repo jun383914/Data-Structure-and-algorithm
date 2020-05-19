@@ -17,7 +17,7 @@
 ### [Day 13 FizzBuzzTree](PlaceHolder)
 ### [Day 14 Breadth First Traversal](PlaceHolder)
 ### [Day 15 Find Maximum Binary Tree](PlaceHolder)
-### [Day 16 Insertion Sort](PlaceHolder)
+### [Day 16 Sorting Algorithm](PlaceHolder)
 ### [Day 17 HashTable](PlaceHolder)
 ### [Day 18 Repeated Word](PlaceHolder)
 ### [Day 19 Tree Intersection](PlaceHolder)
