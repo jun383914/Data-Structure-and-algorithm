@@ -3,7 +3,6 @@
  ---
 
 ### Currently Working on
-### [Shell Sort](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/Sorting/Merge%20Sort/README.md)
 ### [HashTable](PlaceHolder)
 ### [Repeated Word](PlaceHolder)
 ### [Tree Intersection](PlaceHolder)
