@@ -1,8 +1,6 @@
 #  Data-structures-Algorithm
 ## Table of Content(each links direct you to the code)
  ---
-
-### Finished
 | Array | LinkedList |Stacks and Queues | Tree | Sorting |
 |---|---|---|---|---|
 | [Reverse Array](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/ReverseArray/ReverseArray/Program.cs)  |   [LinkedList](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/LinkedList/LinkedList/LinkedList/Program.cs)|   [Stacks and Queues](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/Stacks%20and%20Queues/Stacks%20and%20Queues/Stacks%20and%20Queues/Program.cs)| [Tree](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/Binary%26Binary%20Search%20Tree/BinarySearchTree/BinarySearchTree/Program.cs)  | [Insertion Sort](https://github.com/jun383914/Data-Structure-and-algorithm/blob/master/Sorting/InsertionSort/README.md)  || 
